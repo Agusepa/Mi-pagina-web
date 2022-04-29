@@ -1,0 +1,43 @@
+$colorBackP: black;
+
+.proyecto1{
+    text-align: center;
+    margin: 3rem;
+    padding: 5px;
+}
+
+.backP{
+    margin:1rem;
+    padding:10px;
+    color: $colorBackP;
+    font-size: x-large;
+}
+.emplearte2{
+    height: 500px;
+}
+.parrafoP1{
+    margin: 1rem;
+    padding: 60px;
+}
+$color1:#eec2c2;
+$color2:#a7e3ec;
+$color3:#e9e6c1;
+
+
+@mixin parrafosP1($pProyecto1){
+    background-color: $pProyecto1;
+    border-radius: 5px;
+    padding: 1rem;
+    margin:1rem;
+
+}
+
+.parrafo1P1{
+    @include parrafosP1 ($color1)
+}
+.parrafo2P1{
+    @include parrafosP1 ($color2)
+}
+.parrafo3P1{
+    @include parrafosP1 ($color3)
+}

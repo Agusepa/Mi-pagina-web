@@ -1,0 +1,47 @@
+.contenedorSobreMi {
+	background: antiquewhite;
+	padding: 0px;
+	margin: 0px;
+	display: grid;
+	gap: 1rem;
+	grid-template-columns: repeat(3fr);
+	grid-template-rows: repeat(3fr);
+	grid-template-areas: "header header header"
+			             "main main main"
+			             "footer footer footer";
+}
+
+.mainSobreMi{
+    display: flex;
+    flex-direction: row;
+}
+.imSobreMi{
+    margin:1rem;
+    padding:5px;
+}
+
+.smParrafo{
+    margin:2px;
+
+}
+$encabezados:(
+    xl:black,
+    l: purple,
+    m: grey,
+  
+);
+$xl: map-get($encabezados, xl);
+$l: map-get($encabezados, l);
+$m: map-get($encabezados,m);
+
+
+.smTitulo{
+    color:$xl;
+}
+.experiencia{
+	text-align: center;
+    color:$l;
+}
+.skills,.programas{
+    color:$m;
+}

@@ -30,15 +30,15 @@ main {
 
 .presentacion {
   position: relative;
-  left: 450px;
+  left: 350px;
   top: 100px;
   animation: fadeInLeft;
   animation-duration: 2s; }
 
 .fotomenu {
-  height: 400px;
+  height: 300px;
   position: relative;
-  left: 350px;
+  left: 300px;
   top: 100px;
   animation: fadeIn;
   animation-duration: 2s; }
@@ -147,7 +147,7 @@ main {
   .foto {
     height: 300px; } }
 
-@media (max-width: 720px) {
+@media (max-width: 768px) {
   .mainSobreMi {
     flex-direction: column-reverse; }
   main {
@@ -158,4 +158,28 @@ main {
   .gifInicio {
     height: 300px;
     position: relative;
-    left: 35px; } }
+    left: 250px; }
+  .presentacion {
+    left: 550px;
+    top: 100px; } }
+
+@media (max-width: 425px) {
+  .presentacion {
+    left: 475px;
+    top: 100px; }
+  .gifInicio {
+    display: none; } }
+
+@media (max-width: 375px) {
+  .presentacion {
+    left: 450px;
+    top: 100px; }
+  .gifInicio {
+    display: none; } }
+
+@media (max-width: 320px) {
+  .presentacion {
+    left: 425px;
+    top: 100px; }
+  .gifInicio {
+    display: none; } }

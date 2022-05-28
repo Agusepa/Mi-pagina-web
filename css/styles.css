@@ -4,7 +4,7 @@
   box-sizing: border-box; }
 
 body {
-  background-color: #e7cfe0 !important; }
+  background-image: url(https://www.pexels.com/es-es/foto/pintura-de-pared-blanca-1260727/); }
 
 h3 {
   font-family: 'Bebas Neue', cursive;
@@ -35,10 +35,10 @@ main {
   animation: fadeInLeft;
   animation-duration: 2s; }
 
-.fotomenu {
+.gifInicio {
   height: 300px;
   position: relative;
-  left: 300px;
+  left: 380px;
   top: 100px;
   animation: fadeIn;
   animation-duration: 2s; }
@@ -58,22 +58,21 @@ main {
     color: black; }
 
 .proyecto1 {
-  text-align: center;
-  margin: 3rem;
-  padding: 5px; }
+  text-align: center; }
 
 .backP {
-  margin: 1rem;
-  padding: 10px;
+  position: relative;
+  left: 80px;
+  top: 80px;
   color: black;
   font-size: x-large; }
 
-.emplearte2 {
-  height: 500px; }
+.emplearte1 {
+  height: 200px; }
 
 .parrafoP1 {
-  margin: 1rem;
-  padding: 60px; }
+  margin: 0.2rem;
+  padding: 10px; }
 
 .parrafo1P1 {
   background-color: #eec2c2;
@@ -93,14 +92,82 @@ main {
   padding: 1rem;
   margin: 1rem; }
 
+.fotoEmplearte1 {
+  height: 50px; }
+
+.emplearteBody {
+  background-color: lavender; }
+
+main {
+  display: grid;
+  grid-area: auto; }
+
+@media (max-width: 1024px) {
+  .fotoEmplearte1 {
+    height: 50px; } }
+
+@media (max-width: 768px) {
+  .fotoEmplearte1 {
+    height: 50px; } }
+
+@media (max-width: 425px) {
+  .fotoEmplearte1 {
+    height: 50px; } }
+
+@media (max-width: 375px) {
+  .fotoEmplearte1 {
+    height: 50px; } }
+
+@media (max-width: 320px) {
+  .fotoEmplearte1 {
+    height: 50px; } }
+
 .misProyectos {
-  margin: 10px;
+  margin-top: 50px;
   position: relative;
   bottom: 70px; }
 
 .textoProyectos {
   position: relative;
   bottom: 50px; }
+
+@media (max-width: 1024px) {
+  .misProyectos {
+    position: relative;
+    bottom: 70px;
+    left: 50px; }
+  .textoProyectos {
+    position: relative;
+    bottom: 50px;
+    left: 50px; }
+  .carrousselProyectos {
+    position: relative;
+    left: 60px; } }
+
+@media (max-width: 768px) {
+  .carrousselProyectos {
+    position: relative;
+    left: 50px; } }
+
+@media (max-width: 425px) {
+  .carrousselProyectos {
+    position: relative;
+    left: 10px;
+    width: 150% !important; } }
+
+@media (max-width: 375px) {
+  .carrousselProyectos {
+    position: relative;
+    left: 10px;
+    width: 180% !important; } }
+
+@media (max-width: 320px) {
+  .carrousselProyectos {
+    position: relative;
+    left: 10px;
+    width: 200% !important; }
+  .mainProyectos {
+    right: 70px !important; } }
 
 .contenedorSobreMi {
   background: antiquewhite;
@@ -116,12 +183,14 @@ main {
   display: flex;
   flex-direction: row; }
 
-.imSobreMi {
+.foto {
+  height: 350px;
   margin: 1rem;
   padding: 5px; }
 
-.smParrafo {
-  margin: 2px; }
+.pParrafo {
+  margin: 5px;
+  padding: 5px; }
 
 .smTitulo {
   color: black; }
@@ -130,8 +199,103 @@ main {
   text-align: center;
   color: purple; }
 
-.skills, .programas {
-  color: grey; }
+.listaExperiencia {
+  text-align: center;
+  list-style-type: none; }
+
+.seccionProgramas {
+  margin-top: 130px; }
+
+.programasPng {
+  height: 20rem;
+  margin-bottom: 50px; }
+
+@media (max-width: 1024px) {
+  .programasPng {
+    height: 18rem; }
+  .foto {
+    height: 300px; } }
+
+@media (max-width: 768px) {
+  .programasPng {
+    height: 14rem; }
+  .foto {
+    height: 200px; } }
+
+@media (max-width: 425px) {
+  .programasPng {
+    height: 8rem; }
+  .foto {
+    height: 200px; }
+  .pParrafo {
+    position: relative;
+    left: 20px; } }
+
+@media (max-width: 375px) {
+  .foto {
+    height: 150px; }
+  .programasPng {
+    height: 6rem; } }
+
+@media (max-width: 320px) {
+  .foto {
+    height: 125px; }
+  .programasPng {
+    height: 5rem; } }
+
+.atenea1 {
+  height: 20rem;
+  position: relative;
+  left: 400px; }
+
+.videoAtenea {
+  height: 30rem; }
+
+@media (max-width: 768px) {
+  .videoAtenea {
+    height: 30rem; } }
+
+@media (max-width: 425px) {
+  .presentacion {
+    left: 475px;
+    top: 100px; }
+  .gifInicio {
+    display: none; } }
+
+@media (max-width: 375px) {
+  .presentacion {
+    left: 450px;
+    top: 100px; }
+  .gifInicio {
+    display: none; } }
+
+@media (max-width: 320px) {
+  .presentacion {
+    left: 425px;
+    top: 100px; }
+  .gifInicio {
+    display: none; } }
+
+.ateneaCel {
+  height: 400px; }
+
+.ateneaTablet {
+  height: 600px; }
+
+.ateneaLaptop {
+  height: 800px; }
+
+.ateneaBody {
+  background-color: #ffdddd; }
+
+.infobae1 {
+  height: 200px; }
+
+.infobae7 {
+  height: 800px; }
+
+.infobaeBody {
+  background-color: #ffd8c9; }
 
 @media (max-width: 1024px) {
   main {
@@ -143,9 +307,7 @@ main {
   .mainSobreMi {
     position: relative;
     right: 20px;
-    flex-direction: column-reverse; }
-  .foto {
-    height: 300px; } }
+    flex-direction: column-reverse; } }
 
 @media (max-width: 768px) {
   .mainSobreMi {
@@ -153,12 +315,10 @@ main {
   main {
     position: relative;
     right: 500px; }
-  .foto {
-    height: 200px; }
   .gifInicio {
     height: 300px;
     position: relative;
-    left: 250px; }
+    left: 550px; }
   .presentacion {
     left: 550px;
     top: 100px; } }

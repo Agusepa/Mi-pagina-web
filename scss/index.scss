@@ -5,6 +5,7 @@
 .containermain{
     display: flex;
     flex-direction: row;
+   
 }
 .presentacion{
     position: relative;
@@ -13,14 +14,16 @@
     animation:fadeInLeft;
     animation-duration: 2s;
 }
-.fotomenu{
+.gifInicio{
     height: 300px;
     position: relative;
-    left: 300px;
+    left: 380px;
     top: 100px;
     animation: fadeIn;
-    animation-duration: 2s;
+   animation-duration: 2s;
+
 }
+
 .botoncv{
     color: lavender;
     background-color: rgb(21, 19, 19);

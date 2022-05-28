@@ -4,9 +4,10 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: #e7cfe0 !important;
+body {
+    background-image: url(https://www.pexels.com/es-es/foto/pintura-de-pared-blanca-1260727/);
 }
+
 
 h3{
     font-family: 'Bebas Neue', cursive;
@@ -31,6 +32,9 @@ main{
 @import "proyecto1";
 @import "proyectos";
 @import "sobreMi";
+@import "proyecto2";
+@import "proyecto3";
+
 
 @media (max-width:1024px) {
     
@@ -47,9 +51,6 @@ main{
         right: 20px;
         flex-direction: column-reverse;
     }
-    .foto{
-        height: 300px;
-    }
     
   }
 
@@ -62,13 +63,10 @@ main{
         position: relative;
         right: 500px;
     }
-    .foto{
-        height: 200px;
-    }
     .gifInicio{
         height: 300px;
         position: relative;
-        left: 250px;
+        left: 550px;
     }
     .presentacion{
         left: 550px;

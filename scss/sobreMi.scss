@@ -15,14 +15,15 @@
     display: flex;
     flex-direction: row;
 }
-.imSobreMi{
+.foto{
+    height: 350px;
     margin:1rem;
     padding:5px;
 }
 
-.smParrafo{
-    margin:2px;
-
+.pParrafo{
+    margin:5px;
+    padding: 5px;
 }
 $encabezados:(
     xl:black,
@@ -38,10 +39,67 @@ $m: map-get($encabezados,m);
 .smTitulo{
     color:$xl;
 }
+
 .experiencia{
 	text-align: center;
     color:$l;
+    
 }
-.skills,.programas{
-    color:$m;
+
+.listaExperiencia{
+    text-align: center;
+    list-style-type: none;
+}
+.seccionProgramas {
+    margin-top: 130px;
+}
+.programasPng {
+    height: 20rem;
+    margin-bottom: 50px;
+}
+@media (max-width:1024px) {
+    .programasPng {
+        height: 18rem;
+    }
+    .foto{
+        height: 300px;
+    }
+  }
+
+@media (max-width: 768px) {
+    .programasPng {
+        height: 14rem;
+    }
+    .foto{
+        height: 200px;
+    }
+  }
+
+  @media (max-width: 425px){
+    .programasPng {
+        height: 8rem;
+    }
+    .foto{
+        height: 200px;
+    }
+    .pParrafo {
+        position: relative;
+        left: 20px;
+    }
+  }
+  @media (max-width: 375px){
+    .foto{
+        height: 150px;
+    }
+    .programasPng {
+        height: 6rem;
+    }
+}
+@media (max-width: 320px){
+    .foto{
+        height: 125px;
+    }
+    .programasPng {
+        height: 5rem;
+    }
 }
